@@ -1,10 +1,9 @@
-body{
-color: white;
-background-color: black;
+body {
+    background-color: black;
+    color: white;
 }
 
-
-.menu ul{
+ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -12,23 +11,15 @@ background-color: black;
     padding: 1%;
 }
 
-.contato{
+a {
     color: white;
     text-decoration: none;
 }
 
-.eu  {
-    border-radius: 50%;
-    border: 5px solid green;
-
-}
- h1 {
+nav a:hover {
     color: green;
- }
-
-.center{
-    text-align: center;
 }
+
 
 footer img {
     width: 40px;
@@ -50,13 +41,3 @@ footer a {
 footer p {
     margin-top: 2px;
 }
-
-.container {
-    padding: 0px 50px;
-}
-
-nav a:hover {
-    color: green;
-}
-
-
