@@ -3,6 +3,15 @@ body {
     color: white;
 }
 
+h1 {
+    margin-left: 5%;
+}
+
+.pai {
+    display: flex;
+    justify-content: space-around;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
